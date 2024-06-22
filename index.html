@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <style>
+        #image {
+            width: 300px;
+            height: 300px;
+            border: 1px solid #ccc;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .preview {
+            width: 100px;
+            height: 100px;
+            margin: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body onload="init()">
+    <div id="image">Con Cho De Thuong</div>
+    <img class="preview" src="https://o.rada.vn/data/image/2020/11/07/ta-con-cho.jpg" width="300" alt="Image 1" tabindex="0">
+    <img class="preview" src="https://img.meta.com.vn/Data/image/2021/09/21/hinh-anh-cho-con-3.jpg" width="300" alt="Image 2" tabindex="0">
+    <img class="preview" src="https://o.rada.vn/data/image/2022/04/27/Con-cho-700.jpg" alt="Image 3" tabindex="0">
+    <img class="preview" src="https://kenh14cdn.com/2018/7/2/photo-1-153051235780454128745.jpg" alt="Image 4" tabindex="0">
+    <img class="preview" src="https://kenh14cdn.com/2018/7/2/photo-1-153051235780454128745.jpg" alt="Image 5" tabindex="0">
+    <img class="preview" src="https://kenh14cdn.com/2018/7/2/photo-1-153051235780454128745.jpg" alt="Image 6" tabindex="0">
+
+    <script src="script.js"></script>
+</body>
+</html>
